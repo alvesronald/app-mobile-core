@@ -3,8 +3,8 @@ import {SafeAreaView, Text} from 'react-native';
 
 export const OneScreen = () => {
   return (
-    <SafeAreaView>
-      <Text>Shopping - Screen 1</Text>
+    <SafeAreaView style={{flex: 1, justifyContent: 'center'}}>
+      <Text style={{textAlign: 'center'}}>SHOPPING - TELA 1</Text>
     </SafeAreaView>
   );
 };

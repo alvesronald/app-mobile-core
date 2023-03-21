@@ -3,8 +3,8 @@ import {SafeAreaView, Text} from 'react-native';
 
 export const Home = () => {
   return (
-    <SafeAreaView>
-      <Text>Home</Text>
+    <SafeAreaView style={{flex: 1, justifyContent: 'center'}}>
+      <Text style={{textAlign: 'center'}}>TELA HOME</Text>
     </SafeAreaView>
   );
 };
