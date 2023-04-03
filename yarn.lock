@@ -5256,6 +5256,17 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.6"
 
+"mobile-shopping@https://github.com/alvesronald/mobile-shopping":
+  version "0.0.1"
+  resolved "https://github.com/alvesronald/mobile-shopping#18cc1e717e12c3bda81881bb69ca3f2bd36e373f"
+  dependencies:
+    "@react-navigation/native" "^6.1.6"
+    "@react-navigation/native-stack" "^6.9.12"
+    react "18.2.0"
+    react-native "0.71.4"
+    react-native-safe-area-context "^4.5.0"
+    react-native-screens "^3.20.0"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"

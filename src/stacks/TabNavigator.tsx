@@ -1,8 +1,7 @@
-/* eslint-disable react/jsx-no-undef */
 import * as React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import MainStack from './MainStack';
-import ShoppingStack from '../modules/Shopping';
+import {ShoppingStack} from 'mobile-shopping';
 
 const Tab = createBottomTabNavigator();
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {Home} from '../modules/Home';
-import ShoppingStack from '../modules/Shopping';
+import {ShoppingStack} from 'mobile-shopping';
 
 export type MainStackNavigator = {
   Home: undefined;
